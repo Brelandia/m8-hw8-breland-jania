@@ -56,10 +56,12 @@ header a:hover {
 /* article link transitions */
 main a {
   color: var(--danger-color);
+  transition:200ms;
 }
 main a:hover {
   background-color: #f17d8746;
   text-decoration: none;
+  padding: 3px;
 }
 /* end article link transitions */
 
